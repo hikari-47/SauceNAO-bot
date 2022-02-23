@@ -1,0 +1,17 @@
+{
+  "name": "saucenao",
+  "version": "1.0.0",
+  "description": "Reverse Image Search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "hikari-47",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "is-image-url": "^1.1.8",
+    "sagiri": "^3.1.1"
+  }
+}
