@@ -19,7 +19,7 @@ module.exports = {
                     thumbnail: data.raw.header.thumbnail,
                     authorName: data.authorName || 'none',
                 };
-                const minSimilarity = 50;
+                const minSimilarity = 70;
                 if (minSimilarity <= results.similarity) {
                     const reverseEmbed = new MessageEmbed()
                         .setColor('#9B59B6')
